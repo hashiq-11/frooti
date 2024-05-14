@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+}.navbar{
+    background-color: #050924 ;
+}
+.collapse{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.nav-link .dropdown-toggle{
+    display: inline;
+}
+.nav-link{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 33px !important;
+}
+@media (max-width:800px){
+    .collapse{
+        display: flex;
+        justify-content: start;
+        align-items: center;  
+    }
+    .navbar-toggler-icon {
+    background-image: none !important;
+    }
+}
+.full-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-box{
+    width: 100%;
+    max-height: 500vh;
+    min-height: 40vh;
+    display: inline-flex;
+    background: rgb(240, 145, 48);
+    justify-content: center;
+    align-items: center;  
+}
+.right-box{
+    width: 100%;
+    max-height: 500vh;
+    min-height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-family: "Roboto variant6";
+    font-weight: 500;
+    font-size: 20px; 
+    padding: 20px;
+}
+.socialmedias{
+    display: flex;
+    gap: 20px;
+}
+.font-size{
+    color: white;
+    font-weight: 800;
+    font-family: "EksellDisplayWeb-Small";
+}
+.frooti-img-div{
+    display: inline-block;
+    height: 20%;
+}
+.frooti-img{
+    max-width: 100%;
+    min-width: auto;
+    max-height: 100%;
+    min-height: auto;
+}
+/* footer */
+footer{
+   display: flex;
+   padding-top: 30px;
+   flex-wrap: wrap;
+   font-family: "merivaregular";
+   justify-content: space-around;
+}
+.text{
+    text-decoration: none;
+    color: #0a0b27;
+    font-size: 12px;
+}
+.text:hover{
+    text-decoration: underline;
+    color: rgb(208, 50, 50);
+}
+.app-icon{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    gap: 30px;
+}
+.lists{
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+}
+
+/* footer */
